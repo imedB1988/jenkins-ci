@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven "maven"
+        maven "maven 3.9.6"
     }
     environment {
         SNAP_REPO = 'Snapshot'
